@@ -7,3 +7,20 @@
 333
 22
 1*/
+
+let piramideInver = prompt("ingrese un numero");
+if(Number(piramideInver) == piramideInver);{
+    if (piramideInver > 0 && piramideInver <= 50) {
+        let rep,i;
+        for(i = piramideInver; i >= 1; i--){
+            for (rep = i; rep >= 1; rep--){
+                document.write(i);
+            }
+            document.write("<br>");
+        }
+    }
+    else{
+        alert("El número que ingreso no es valido");
+
+    }
+} 
